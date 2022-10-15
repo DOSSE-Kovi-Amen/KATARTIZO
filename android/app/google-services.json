@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "582913032092",
+    "project_id": "katartizo-f5f04",
+    "storage_bucket": "katartizo-f5f04.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:582913032092:android:018aca8c580b5d2b331259",
+        "android_client_info": {
+          "package_name": "com.katartizo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "582913032092-4vghursrpntbgvq0afmdkr7625avbshf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK81pA5xTs_LckGXZCWq7cEJrUPX3Y_f4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "582913032092-4vghursrpntbgvq0afmdkr7625avbshf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">582913032092-4vghursrpntbgvq0afmdkr7625avbshf.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">582913032092</string>
+    <string name="google_api_key" translatable="false">AIzaSyAK81pA5xTs_LckGXZCWq7cEJrUPX3Y_f4</string>
+    <string name="google_app_id" translatable="false">1:582913032092:android:018aca8c580b5d2b331259</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAK81pA5xTs_LckGXZCWq7cEJrUPX3Y_f4</string>
+    <string name="google_storage_bucket" translatable="false">katartizo-f5f04.appspot.com</string>
+    <string name="project_id" translatable="false">katartizo-f5f04</string>
+</resources>

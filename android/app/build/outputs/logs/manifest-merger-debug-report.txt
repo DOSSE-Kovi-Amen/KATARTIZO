@@ -1,0 +1,778 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:1:1-28:12
+INJECTED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:1:1-28:12
+INJECTED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:1:1-28:12
+INJECTED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:1:1-28:12
+MERGED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:1:1-28:12
+MERGED from [com.facebook.flipper:flipper:0.125.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\e709484b533a58236f3ce77e2b91070e\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:8:1-18:12
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\df891dc90721429b5f4fc3584d18b6df\transformed\jetified-flipper-network-plugin-0.125.0\AndroidManifest.xml:8:1-15:12
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\d15be07a52695b95acf9ae24c335b87d\transformed\jetified-flipper-fresco-plugin-0.125.0\AndroidManifest.xml:8:1-15:12
+MERGED from [:react-native-splash-screen] C:\Katartizo\node_modules\react-native-splash-screen\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-firebase_firestore] C:\Katartizo\node_modules\@react-native-firebase\firestore\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-45:12
+MERGED from [:react-native-firebase_app] C:\Katartizo\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-32:12
+MERGED from [:react-native-gesture-handler] C:\Katartizo\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-pager-view] C:\Katartizo\node_modules\react-native-pager-view\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-reanimated] C:\Katartizo\node_modules\react-native-reanimated\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-safe-area-context] C:\Katartizo\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] C:\Katartizo\node_modules\react-native-screens\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-vector-icons] C:\Katartizo\node_modules\react-native-vector-icons\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-webview] C:\Katartizo\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-21:12
+MERGED from [com.facebook.react:react-native:0.70.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\390350a9d021c4519bec7e3f3dd0dd59\transformed\jetified-react-native-0.70.1-debug\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\9411e627ac67513241311ce9f764aad4\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [org.webkit:android-jsc:r250230] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\9fd4b80fa45ad2818a9919a18fa4bf95\transformed\jetified-android-jsc-r250230\AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.fresco:flipper:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\a7688692715f182124c629be525db00c\transformed\jetified-flipper-2.6.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:stetho:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\805aa975c89100a5b68b050ce74ef989\transformed\jetified-stetho-2.6.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fresco:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\dbc6f8460509d26201a84fe5d0ac880c\transformed\jetified-fresco-2.6.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:soloader:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\a8681ae8eef84f3ec87f052264450186\transformed\jetified-soloader-2.6.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\3b390052ce885c854464b5b98d5d4c87\transformed\jetified-imagepipeline-okhttp3-2.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\1ce9b45422462c7870bf311d4eb21fc4\transformed\jetified-drawee-2.6.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\79c920ef646b55235c6129128cef263c\transformed\jetified-nativeimagefilters-2.6.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-native:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\46c007accc1685a348ba7935ece57aed\transformed\jetified-memory-type-native-2.6.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-java:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\6c9be712e89cb485048cf63c559e4c5d\transformed\jetified-memory-type-java-2.6.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\8e55e7a8a32dc77df66f369ed654898a\transformed\jetified-imagepipeline-native-2.6.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.10.4] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\7293680ec63017942d0820a907ddfea6\transformed\jetified-soloader-0.10.4\AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\c800a62b8b2bcdc38f27356de5a55183\transformed\jetified-memory-type-ashmem-2.6.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\697af284337affdacdf0a6889ddc8e42\transformed\jetified-imagepipeline-2.6.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\295abbc2fe3f7bd8e7b56dcf46f8bb43\transformed\jetified-nativeimagetranscoder-2.6.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\9dab0376e684406d0004dadd0554259a\transformed\jetified-imagepipeline-base-2.6.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-firestore:24.2.2] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\91b1d8ad03d5f0fbd7568087eee8031b\transformed\jetified-firebase-firestore-24.2.2\AndroidManifest.xml:2:1-26:12
+MERGED from [io.grpc:grpc-android:1.44.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\ce5e176108867f9f0f59ac96ffc45216\transformed\jetified-grpc-android-1.44.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\04f5a1d8e4846d2bcd24e1a78f4fea75\transformed\material-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\acd22834d9c8b7de289409240103d3ff\transformed\appcompat-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\dccf0536b3179c9c5ba0c10ac38b94d6\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\a0e840c18f8864d039eee0bf55cb6e09\transformed\jetified-appcompat-resources-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.1.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\82219e022696373760f05c73cb6bcbc7\transformed\jetified-autofill-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:middleware:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\d52f632242249f29456c13d73b986d5d\transformed\jetified-middleware-2.6.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:ui-common:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\df12046ec6a744797eb6c6f6867cf885\transformed\jetified-ui-common-2.6.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-messaging:23.0.7] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\02e8eafa2dfcaa87e9cf2b01b54a6ca6\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:17:1-62:12
+MERGED from [com.google.firebase:firebase-datatransport:18.1.5] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\e4e7cd45998e5b693d655aaf7b78344a\transformed\jetified-firebase-datatransport-18.1.5\AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\cc75ee00747d4f5c3d3c1909c50492b1\transformed\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\6ad74398582d850a1674277a651ffa35\transformed\jetified-transport-runtime-3.1.6\AndroidManifest.xml:15:1-41:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\69c835ca32812a540e241e4d34b8b9b7\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\d1a7497e6e1009ce44c3b1c080d20dae\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\22d13a873a38b831105f716bfe176b3a\transformed\jetified-core-ktx-1.6.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\94e9627b4c97492aa3f3e6b3583972b7\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\fec8aef5c5165f1cb1f1945713ac41e8\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.webkit:webkit:1.4.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\4c659de6eb18dc3b0eca0c862af0435b\transformed\webkit-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth:20.2.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\a96220f53c242a7acc18c71ee2922395\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\feaa6dfa88604b3706a0ddac10f7ac4a\transformed\jetified-play-services-auth-api-phone-18.0.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\56e60baeb08afc4781a6843970faef51\transformed\jetified-play-services-auth-base-18.0.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\4a3ec4aaed6faf13e8f7c4e3dc635ba9\transformed\jetified-firebase-appcheck-interop-16.0.0\AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\91f1e5b550a2968dd18ed34cbf5b64b1\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\bb6e50aebce75160399c7c18246b36fb\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\79ab7c49225b768aa57f813f04644b82\transformed\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\9206f4adbcf9a2ba9115946791d59286\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\754bb664b526c0eb509e2119e70337ed\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\378663727fd9587b92a14ecf56b06c6c\transformed\jetified-play-services-cloud-messaging-17.0.1\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\14798272260657207b9649b4b51b4723\transformed\jetified-firebase-iid-interop-17.1.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\baa1306741300eb95c986ab912e30145\transformed\jetified-firebase-installations-interop-17.0.1\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\08f33a6b5819deffe2b3ebd8d63a0e58\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\3d91975633e03b31cf6848173ba7483d\transformed\jetified-play-services-stats-17.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\2976d8e6acf60ac7e3958463578c53c7\transformed\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\fa9e044628b58ecf7940789e3da4905c\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\05af351c9c2173837b7fe5ebea77b89e\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\8371c612ff96dbbeab9ae7144c5f2d9e\transformed\jetified-activity-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\7ec3f35a5c6e4632fec18c558762ac12\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\e33be122fd66a0f393c321de5c2946ec\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\0f1ac4741a9885e9d65f09b8bf6799b3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\02a544460bb8f454e195af3d94aa0f0d\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\998a716aaaa6aa5736c63fcf8d7a96b6\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\a06c39db89d032b8c9e76cc5c94d41fa\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\43dfe02219e0b2895f4ccba96f776c0a\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\47d445cffba11b3287abddb644402e41\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\f42ac3d286d3bbaadeae6bd6846a0aee\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\a3b9efeff88e2463fc9ad7b515fe70c1\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.7.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\d94123f2ace6396c4afb5605fcf617d8\transformed\core-1.7.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\0a9f33cc5c55307aea4def9289bc26cb\transformed\sqlite-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\5da7de03ab97c756fe53f97472c9da29\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\9814fc04fae5346337a34848a4aeb6da\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\25e1b332ab69532ddc062ff7d4517043\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\0d6db91b5881ea782c194252f2ca93e9\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\8ce0c70c55f6af9f7eb9ee31f99edcc1\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\1e33a27b5492ac7896ff595f8e49a198\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\c805e172ad9f8740ffec8ac64902e291\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\3c2731451f8d81a0d646ed14e71b25e4\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\147639d59b7b492900a1defc9971f6f3\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\c0031e3526596c662545ef583019674b\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\b84ce5e889b9a73b66f99b03d8705a01\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\846cbf28e09fc37033eadb02c99e75c0\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\46256346728c7e390f8b14828faa3758\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\77d748f8ee444605c0178dbc8d705bfa\transformed\jetified-firebase-components-17.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\2491507a0dd1beea6b9a2d5b58b5d7b0\transformed\jetified-transport-api-3.0.0\AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\8bd01123ecac5e17a7b087ffb2014a3d\transformed\jetified-firebase-encoders-json-18.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\5e3613ee02a41aba34841ec286b6ccce\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\ae790466e66b0c2d83f425f81136bd1d\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\1c59630583df21f3a7ea2307a56d0700\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\246dd7d52c01a6151e6a88ebaf45668b\transformed\jetified-fbcore-2.6.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\36ec040e77369000ed492c6321e79361\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\6a11f267122dad3e42fca7446a2ab1b5\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
+INJECTED from C:\Katartizo\android\app\src\debug\AndroidManifest.xml:2:1-13:12
+INJECTED from C:\Katartizo\android\app\src\debug\AndroidManifest.xml:2:1-13:12
+INJECTED from C:\Katartizo\android\app\src\debug\AndroidManifest.xml:2:1-13:12
+	package
+		ADDED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:2:3-26
+		INJECTED from C:\Katartizo\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:2:3-26
+		INJECTED from C:\Katartizo\android\app\src\debug\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Katartizo\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:1:1-28:12
+		INJECTED from C:\Katartizo\android\app\src\debug\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Katartizo\android\app\src\debug\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Katartizo\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:1:1-28:12
+		INJECTED from C:\Katartizo\android\app\src\debug\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:4:5-67
+MERGED from [com.facebook.flipper:flipper:0.125.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\e709484b533a58236f3ce77e2b91070e\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:15:5-67
+MERGED from [com.facebook.flipper:flipper:0.125.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\e709484b533a58236f3ce77e2b91070e\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:15:5-67
+MERGED from [:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-67
+MERGED from [:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.2.2] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\91b1d8ad03d5f0fbd7568087eee8031b\transformed\jetified-firebase-firestore-24.2.2\AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.2.2] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\91b1d8ad03d5f0fbd7568087eee8031b\transformed\jetified-firebase-firestore-24.2.2\AndroidManifest.xml:14:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\cc75ee00747d4f5c3d3c1909c50492b1\transformed\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\cc75ee00747d4f5c3d3c1909c50492b1\transformed\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\9206f4adbcf9a2ba9115946791d59286\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\9206f4adbcf9a2ba9115946791d59286\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\378663727fd9587b92a14ecf56b06c6c\transformed\jetified-play-services-cloud-messaging-17.0.1\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\378663727fd9587b92a14ecf56b06c6c\transformed\jetified-play-services-cloud-messaging-17.0.1\AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:4:22-64
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:5:22-63
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:6:22-78
+application
+ADDED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:8:5-27:19
+MERGED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:8:5-27:19
+MERGED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:8:5-27:19
+MERGED from [:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-43:19
+MERGED from [:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-43:19
+MERGED from [:react-native-firebase_app] C:\Katartizo\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-30:19
+MERGED from [:react-native-firebase_app] C:\Katartizo\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-30:19
+MERGED from [:react-native-webview] C:\Katartizo\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-webview] C:\Katartizo\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-19:19
+MERGED from [com.facebook.react:react-native:0.70.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\390350a9d021c4519bec7e3f3dd0dd59\transformed\jetified-react-native-0.70.1-debug\AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.react:react-native:0.70.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\390350a9d021c4519bec7e3f3dd0dd59\transformed\jetified-react-native-0.70.1-debug\AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.soloader:soloader:0.10.4] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\7293680ec63017942d0820a907ddfea6\transformed\jetified-soloader-0.10.4\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.10.4] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\7293680ec63017942d0820a907ddfea6\transformed\jetified-soloader-0.10.4\AndroidManifest.xml:11:5-20
+MERGED from [com.google.firebase:firebase-firestore:24.2.2] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\91b1d8ad03d5f0fbd7568087eee8031b\transformed\jetified-firebase-firestore-24.2.2\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:24.2.2] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\91b1d8ad03d5f0fbd7568087eee8031b\transformed\jetified-firebase-firestore-24.2.2\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\04f5a1d8e4846d2bcd24e1a78f4fea75\transformed\material-1.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\04f5a1d8e4846d2bcd24e1a78f4fea75\transformed\material-1.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-messaging:23.0.7] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\02e8eafa2dfcaa87e9cf2b01b54a6ca6\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:31:5-60:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.7] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\02e8eafa2dfcaa87e9cf2b01b54a6ca6\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:31:5-60:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.5] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\e4e7cd45998e5b693d655aaf7b78344a\transformed\jetified-firebase-datatransport-18.1.5\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.5] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\e4e7cd45998e5b693d655aaf7b78344a\transformed\jetified-firebase-datatransport-18.1.5\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\cc75ee00747d4f5c3d3c1909c50492b1\transformed\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\cc75ee00747d4f5c3d3c1909c50492b1\transformed\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\6ad74398582d850a1674277a651ffa35\transformed\jetified-transport-runtime-3.1.6\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\6ad74398582d850a1674277a651ffa35\transformed\jetified-transport-runtime-3.1.6\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.gms:play-services-auth:20.2.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\a96220f53c242a7acc18c71ee2922395\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.2.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\a96220f53c242a7acc18c71ee2922395\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\4a3ec4aaed6faf13e8f7c4e3dc635ba9\transformed\jetified-firebase-appcheck-interop-16.0.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\4a3ec4aaed6faf13e8f7c4e3dc635ba9\transformed\jetified-firebase-appcheck-interop-16.0.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\bb6e50aebce75160399c7c18246b36fb\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\bb6e50aebce75160399c7c18246b36fb\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\79ab7c49225b768aa57f813f04644b82\transformed\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\79ab7c49225b768aa57f813f04644b82\transformed\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\9206f4adbcf9a2ba9115946791d59286\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\9206f4adbcf9a2ba9115946791d59286\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\754bb664b526c0eb509e2119e70337ed\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\754bb664b526c0eb509e2119e70337ed\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\14798272260657207b9649b4b51b4723\transformed\jetified-firebase-iid-interop-17.1.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\14798272260657207b9649b4b51b4723\transformed\jetified-firebase-iid-interop-17.1.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\08f33a6b5819deffe2b3ebd8d63a0e58\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\08f33a6b5819deffe2b3ebd8d63a0e58\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\3d91975633e03b31cf6848173ba7483d\transformed\jetified-play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\3d91975633e03b31cf6848173ba7483d\transformed\jetified-play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\2976d8e6acf60ac7e3958463578c53c7\transformed\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\2976d8e6acf60ac7e3958463578c53c7\transformed\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\fa9e044628b58ecf7940789e3da4905c\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\fa9e044628b58ecf7940789e3da4905c\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\0f1ac4741a9885e9d65f09b8bf6799b3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\0f1ac4741a9885e9d65f09b8bf6799b3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.7.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\d94123f2ace6396c4afb5605fcf617d8\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\d94123f2ace6396c4afb5605fcf617d8\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\8ce0c70c55f6af9f7eb9ee31f99edcc1\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\8ce0c70c55f6af9f7eb9ee31f99edcc1\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\c805e172ad9f8740ffec8ac64902e291\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\c805e172ad9f8740ffec8ac64902e291\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\3c2731451f8d81a0d646ed14e71b25e4\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\3c2731451f8d81a0d646ed14e71b25e4\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\d94123f2ace6396c4afb5605fcf617d8\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:10:7-39
+		ADDED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:10:7-39
+	tools:ignore
+		ADDED from C:\Katartizo\android\app\src\debug\AndroidManifest.xml:10:9-48
+	android:roundIcon
+		ADDED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:12:7-52
+		ADDED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:12:7-52
+	tools:targetApi
+		ADDED from C:\Katartizo\android\app\src\debug\AndroidManifest.xml:9:9-29
+	android:icon
+		ADDED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:11:7-41
+		ADDED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:11:7-41
+	android:allowBackup
+		ADDED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:13:7-34
+		ADDED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:13:7-34
+	android:theme
+		ADDED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:14:7-38
+		ADDED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:14:7-38
+	android:usesCleartextTraffic
+		ADDED from C:\Katartizo\android\app\src\debug\AndroidManifest.xml:8:9-44
+	android:name
+		ADDED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:9:7-38
+		ADDED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:9:7-38
+activity#com.katartizo.MainActivity
+ADDED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:15:7-26:18
+	android:label
+		ADDED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:17:9-41
+	android:launchMode
+		ADDED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:19:9-40
+	android:windowSoftInputMode
+		ADDED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:20:9-51
+	android:exported
+		ADDED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:21:9-32
+	android:configChanges
+		ADDED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:18:9-118
+	android:name
+		ADDED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:16:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:22:9-25:25
+action#android.intent.action.MAIN
+ADDED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:23:13-65
+	android:name
+		ADDED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:23:21-62
+category#android.intent.category.LAUNCHER
+ADDED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:24:13-73
+	android:name
+		ADDED from C:\Katartizo\android\app\src\main\AndroidManifest.xml:24:23-70
+uses-sdk
+INJECTED from C:\Katartizo\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Katartizo\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Katartizo\android\app\src\main\AndroidManifest.xml
+MERGED from [com.facebook.flipper:flipper:0.125.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\e709484b533a58236f3ce77e2b91070e\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper:0.125.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\e709484b533a58236f3ce77e2b91070e\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\df891dc90721429b5f4fc3584d18b6df\transformed\jetified-flipper-network-plugin-0.125.0\AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\df891dc90721429b5f4fc3584d18b6df\transformed\jetified-flipper-network-plugin-0.125.0\AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\d15be07a52695b95acf9ae24c335b87d\transformed\jetified-flipper-fresco-plugin-0.125.0\AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\d15be07a52695b95acf9ae24c335b87d\transformed\jetified-flipper-fresco-plugin-0.125.0\AndroidManifest.xml:11:5-13:41
+MERGED from [:react-native-splash-screen] C:\Katartizo\node_modules\react-native-splash-screen\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-splash-screen] C:\Katartizo\node_modules\react-native-splash-screen\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_firestore] C:\Katartizo\node_modules\@react-native-firebase\firestore\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_firestore] C:\Katartizo\node_modules\@react-native-firebase\firestore\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_app] C:\Katartizo\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-8:41
+MERGED from [:react-native-firebase_app] C:\Katartizo\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-8:41
+MERGED from [:react-native-gesture-handler] C:\Katartizo\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] C:\Katartizo\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-pager-view] C:\Katartizo\node_modules\react-native-pager-view\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-pager-view] C:\Katartizo\node_modules\react-native-pager-view\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-reanimated] C:\Katartizo\node_modules\react-native-reanimated\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-reanimated] C:\Katartizo\node_modules\react-native-reanimated\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] C:\Katartizo\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] C:\Katartizo\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] C:\Katartizo\node_modules\react-native-screens\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] C:\Katartizo\node_modules\react-native-screens\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-vector-icons] C:\Katartizo\node_modules\react-native-vector-icons\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-vector-icons] C:\Katartizo\node_modules\react-native-vector-icons\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-webview] C:\Katartizo\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-webview] C:\Katartizo\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.70.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\390350a9d021c4519bec7e3f3dd0dd59\transformed\jetified-react-native-0.70.1-debug\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.70.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\390350a9d021c4519bec7e3f3dd0dd59\transformed\jetified-react-native-0.70.1-debug\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\9411e627ac67513241311ce9f764aad4\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\9411e627ac67513241311ce9f764aad4\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [org.webkit:android-jsc:r250230] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\9fd4b80fa45ad2818a9919a18fa4bf95\transformed\jetified-android-jsc-r250230\AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r250230] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\9fd4b80fa45ad2818a9919a18fa4bf95\transformed\jetified-android-jsc-r250230\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:flipper:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\a7688692715f182124c629be525db00c\transformed\jetified-flipper-2.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:flipper:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\a7688692715f182124c629be525db00c\transformed\jetified-flipper-2.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\805aa975c89100a5b68b050ce74ef989\transformed\jetified-stetho-2.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\805aa975c89100a5b68b050ce74ef989\transformed\jetified-stetho-2.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\dbc6f8460509d26201a84fe5d0ac880c\transformed\jetified-fresco-2.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\dbc6f8460509d26201a84fe5d0ac880c\transformed\jetified-fresco-2.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\a8681ae8eef84f3ec87f052264450186\transformed\jetified-soloader-2.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\a8681ae8eef84f3ec87f052264450186\transformed\jetified-soloader-2.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\3b390052ce885c854464b5b98d5d4c87\transformed\jetified-imagepipeline-okhttp3-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\3b390052ce885c854464b5b98d5d4c87\transformed\jetified-imagepipeline-okhttp3-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\1ce9b45422462c7870bf311d4eb21fc4\transformed\jetified-drawee-2.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\1ce9b45422462c7870bf311d4eb21fc4\transformed\jetified-drawee-2.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\79c920ef646b55235c6129128cef263c\transformed\jetified-nativeimagefilters-2.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\79c920ef646b55235c6129128cef263c\transformed\jetified-nativeimagefilters-2.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\46c007accc1685a348ba7935ece57aed\transformed\jetified-memory-type-native-2.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\46c007accc1685a348ba7935ece57aed\transformed\jetified-memory-type-native-2.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\6c9be712e89cb485048cf63c559e4c5d\transformed\jetified-memory-type-java-2.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\6c9be712e89cb485048cf63c559e4c5d\transformed\jetified-memory-type-java-2.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\8e55e7a8a32dc77df66f369ed654898a\transformed\jetified-imagepipeline-native-2.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\8e55e7a8a32dc77df66f369ed654898a\transformed\jetified-imagepipeline-native-2.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.10.4] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\7293680ec63017942d0820a907ddfea6\transformed\jetified-soloader-0.10.4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.10.4] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\7293680ec63017942d0820a907ddfea6\transformed\jetified-soloader-0.10.4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\c800a62b8b2bcdc38f27356de5a55183\transformed\jetified-memory-type-ashmem-2.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\c800a62b8b2bcdc38f27356de5a55183\transformed\jetified-memory-type-ashmem-2.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\697af284337affdacdf0a6889ddc8e42\transformed\jetified-imagepipeline-2.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\697af284337affdacdf0a6889ddc8e42\transformed\jetified-imagepipeline-2.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\295abbc2fe3f7bd8e7b56dcf46f8bb43\transformed\jetified-nativeimagetranscoder-2.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\295abbc2fe3f7bd8e7b56dcf46f8bb43\transformed\jetified-nativeimagetranscoder-2.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\9dab0376e684406d0004dadd0554259a\transformed\jetified-imagepipeline-base-2.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\9dab0376e684406d0004dadd0554259a\transformed\jetified-imagepipeline-base-2.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-firestore:24.2.2] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\91b1d8ad03d5f0fbd7568087eee8031b\transformed\jetified-firebase-firestore-24.2.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:24.2.2] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\91b1d8ad03d5f0fbd7568087eee8031b\transformed\jetified-firebase-firestore-24.2.2\AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.44.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\ce5e176108867f9f0f59ac96ffc45216\transformed\jetified-grpc-android-1.44.1\AndroidManifest.xml:5:5-7:41
+MERGED from [io.grpc:grpc-android:1.44.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\ce5e176108867f9f0f59ac96ffc45216\transformed\jetified-grpc-android-1.44.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\04f5a1d8e4846d2bcd24e1a78f4fea75\transformed\material-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\04f5a1d8e4846d2bcd24e1a78f4fea75\transformed\material-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\acd22834d9c8b7de289409240103d3ff\transformed\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\acd22834d9c8b7de289409240103d3ff\transformed\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\dccf0536b3179c9c5ba0c10ac38b94d6\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\dccf0536b3179c9c5ba0c10ac38b94d6\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\a0e840c18f8864d039eee0bf55cb6e09\transformed\jetified-appcompat-resources-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\a0e840c18f8864d039eee0bf55cb6e09\transformed\jetified-appcompat-resources-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\82219e022696373760f05c73cb6bcbc7\transformed\jetified-autofill-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\82219e022696373760f05c73cb6bcbc7\transformed\jetified-autofill-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:middleware:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\d52f632242249f29456c13d73b986d5d\transformed\jetified-middleware-2.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:middleware:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\d52f632242249f29456c13d73b986d5d\transformed\jetified-middleware-2.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\df12046ec6a744797eb6c6f6867cf885\transformed\jetified-ui-common-2.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\df12046ec6a744797eb6c6f6867cf885\transformed\jetified-ui-common-2.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-messaging:23.0.7] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\02e8eafa2dfcaa87e9cf2b01b54a6ca6\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.firebase:firebase-messaging:23.0.7] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\02e8eafa2dfcaa87e9cf2b01b54a6ca6\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.firebase:firebase-datatransport:18.1.5] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\e4e7cd45998e5b693d655aaf7b78344a\transformed\jetified-firebase-datatransport-18.1.5\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-datatransport:18.1.5] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\e4e7cd45998e5b693d655aaf7b78344a\transformed\jetified-firebase-datatransport-18.1.5\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\cc75ee00747d4f5c3d3c1909c50492b1\transformed\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\cc75ee00747d4f5c3d3c1909c50492b1\transformed\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\6ad74398582d850a1674277a651ffa35\transformed\jetified-transport-runtime-3.1.6\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\6ad74398582d850a1674277a651ffa35\transformed\jetified-transport-runtime-3.1.6\AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\69c835ca32812a540e241e4d34b8b9b7\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\69c835ca32812a540e241e4d34b8b9b7\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\d1a7497e6e1009ce44c3b1c080d20dae\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\d1a7497e6e1009ce44c3b1c080d20dae\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\22d13a873a38b831105f716bfe176b3a\transformed\jetified-core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\22d13a873a38b831105f716bfe176b3a\transformed\jetified-core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\94e9627b4c97492aa3f3e6b3583972b7\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\94e9627b4c97492aa3f3e6b3583972b7\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\fec8aef5c5165f1cb1f1945713ac41e8\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\fec8aef5c5165f1cb1f1945713ac41e8\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.4.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\4c659de6eb18dc3b0eca0c862af0435b\transformed\webkit-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.4.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\4c659de6eb18dc3b0eca0c862af0435b\transformed\webkit-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth:20.2.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\a96220f53c242a7acc18c71ee2922395\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.2.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\a96220f53c242a7acc18c71ee2922395\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\feaa6dfa88604b3706a0ddac10f7ac4a\transformed\jetified-play-services-auth-api-phone-18.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\feaa6dfa88604b3706a0ddac10f7ac4a\transformed\jetified-play-services-auth-api-phone-18.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\56e60baeb08afc4781a6843970faef51\transformed\jetified-play-services-auth-base-18.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\56e60baeb08afc4781a6843970faef51\transformed\jetified-play-services-auth-base-18.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\4a3ec4aaed6faf13e8f7c4e3dc635ba9\transformed\jetified-firebase-appcheck-interop-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\4a3ec4aaed6faf13e8f7c4e3dc635ba9\transformed\jetified-firebase-appcheck-interop-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\91f1e5b550a2968dd18ed34cbf5b64b1\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\91f1e5b550a2968dd18ed34cbf5b64b1\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\bb6e50aebce75160399c7c18246b36fb\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\bb6e50aebce75160399c7c18246b36fb\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\79ab7c49225b768aa57f813f04644b82\transformed\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\79ab7c49225b768aa57f813f04644b82\transformed\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\9206f4adbcf9a2ba9115946791d59286\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\9206f4adbcf9a2ba9115946791d59286\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\754bb664b526c0eb509e2119e70337ed\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\754bb664b526c0eb509e2119e70337ed\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\378663727fd9587b92a14ecf56b06c6c\transformed\jetified-play-services-cloud-messaging-17.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\378663727fd9587b92a14ecf56b06c6c\transformed\jetified-play-services-cloud-messaging-17.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\14798272260657207b9649b4b51b4723\transformed\jetified-firebase-iid-interop-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\14798272260657207b9649b4b51b4723\transformed\jetified-firebase-iid-interop-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\baa1306741300eb95c986ab912e30145\transformed\jetified-firebase-installations-interop-17.0.1\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\baa1306741300eb95c986ab912e30145\transformed\jetified-firebase-installations-interop-17.0.1\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\08f33a6b5819deffe2b3ebd8d63a0e58\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\08f33a6b5819deffe2b3ebd8d63a0e58\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\3d91975633e03b31cf6848173ba7483d\transformed\jetified-play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\3d91975633e03b31cf6848173ba7483d\transformed\jetified-play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\2976d8e6acf60ac7e3958463578c53c7\transformed\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\2976d8e6acf60ac7e3958463578c53c7\transformed\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\fa9e044628b58ecf7940789e3da4905c\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\fa9e044628b58ecf7940789e3da4905c\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\05af351c9c2173837b7fe5ebea77b89e\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\05af351c9c2173837b7fe5ebea77b89e\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\8371c612ff96dbbeab9ae7144c5f2d9e\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\8371c612ff96dbbeab9ae7144c5f2d9e\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\7ec3f35a5c6e4632fec18c558762ac12\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\7ec3f35a5c6e4632fec18c558762ac12\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\e33be122fd66a0f393c321de5c2946ec\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\e33be122fd66a0f393c321de5c2946ec\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\0f1ac4741a9885e9d65f09b8bf6799b3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\0f1ac4741a9885e9d65f09b8bf6799b3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\02a544460bb8f454e195af3d94aa0f0d\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\02a544460bb8f454e195af3d94aa0f0d\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\998a716aaaa6aa5736c63fcf8d7a96b6\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\998a716aaaa6aa5736c63fcf8d7a96b6\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\a06c39db89d032b8c9e76cc5c94d41fa\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\a06c39db89d032b8c9e76cc5c94d41fa\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\43dfe02219e0b2895f4ccba96f776c0a\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\43dfe02219e0b2895f4ccba96f776c0a\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\47d445cffba11b3287abddb644402e41\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\47d445cffba11b3287abddb644402e41\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\f42ac3d286d3bbaadeae6bd6846a0aee\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\f42ac3d286d3bbaadeae6bd6846a0aee\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\a3b9efeff88e2463fc9ad7b515fe70c1\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\a3b9efeff88e2463fc9ad7b515fe70c1\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\d94123f2ace6396c4afb5605fcf617d8\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\d94123f2ace6396c4afb5605fcf617d8\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\0a9f33cc5c55307aea4def9289bc26cb\transformed\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\0a9f33cc5c55307aea4def9289bc26cb\transformed\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\5da7de03ab97c756fe53f97472c9da29\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\5da7de03ab97c756fe53f97472c9da29\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\9814fc04fae5346337a34848a4aeb6da\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\9814fc04fae5346337a34848a4aeb6da\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\25e1b332ab69532ddc062ff7d4517043\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\25e1b332ab69532ddc062ff7d4517043\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\0d6db91b5881ea782c194252f2ca93e9\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\0d6db91b5881ea782c194252f2ca93e9\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\8ce0c70c55f6af9f7eb9ee31f99edcc1\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\8ce0c70c55f6af9f7eb9ee31f99edcc1\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\1e33a27b5492ac7896ff595f8e49a198\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\1e33a27b5492ac7896ff595f8e49a198\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\c805e172ad9f8740ffec8ac64902e291\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\c805e172ad9f8740ffec8ac64902e291\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\3c2731451f8d81a0d646ed14e71b25e4\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\3c2731451f8d81a0d646ed14e71b25e4\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\147639d59b7b492900a1defc9971f6f3\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\147639d59b7b492900a1defc9971f6f3\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\c0031e3526596c662545ef583019674b\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\c0031e3526596c662545ef583019674b\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\b84ce5e889b9a73b66f99b03d8705a01\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\b84ce5e889b9a73b66f99b03d8705a01\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\846cbf28e09fc37033eadb02c99e75c0\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\846cbf28e09fc37033eadb02c99e75c0\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\46256346728c7e390f8b14828faa3758\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\46256346728c7e390f8b14828faa3758\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\77d748f8ee444605c0178dbc8d705bfa\transformed\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\77d748f8ee444605c0178dbc8d705bfa\transformed\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\2491507a0dd1beea6b9a2d5b58b5d7b0\transformed\jetified-transport-api-3.0.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\2491507a0dd1beea6b9a2d5b58b5d7b0\transformed\jetified-transport-api-3.0.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\8bd01123ecac5e17a7b087ffb2014a3d\transformed\jetified-firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\8bd01123ecac5e17a7b087ffb2014a3d\transformed\jetified-firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\5e3613ee02a41aba34841ec286b6ccce\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\5e3613ee02a41aba34841ec286b6ccce\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\ae790466e66b0c2d83f425f81136bd1d\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\ae790466e66b0c2d83f425f81136bd1d\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\1c59630583df21f3a7ea2307a56d0700\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\1c59630583df21f3a7ea2307a56d0700\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\246dd7d52c01a6151e6a88ebaf45668b\transformed\jetified-fbcore-2.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.6.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\246dd7d52c01a6151e6a88ebaf45668b\transformed\jetified-fbcore-2.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\36ec040e77369000ed492c6321e79361\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\36ec040e77369000ed492c6321e79361\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\6a11f267122dad3e42fca7446a2ab1b5\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\6a11f267122dad3e42fca7446a2ab1b5\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Katartizo\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Katartizo\android\app\src\debug\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Katartizo\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Katartizo\android\app\src\debug\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Katartizo\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Katartizo\android\app\src\debug\AndroidManifest.xml
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Katartizo\android\app\src\debug\AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from C:\Katartizo\android\app\src\debug\AndroidManifest.xml:5:22-75
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from C:\Katartizo\android\app\src\debug\AndroidManifest.xml:11:9-111
+	android:exported
+		ADDED from C:\Katartizo\android\app\src\debug\AndroidManifest.xml:11:84-108
+	android:name
+		ADDED from C:\Katartizo\android\app\src\debug\AndroidManifest.xml:11:19-83
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.facebook.flipper:flipper:0.125.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\e709484b533a58236f3ce77e2b91070e\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from [com.facebook.flipper:flipper:0.125.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\e709484b533a58236f3ce77e2b91070e\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-68
+MERGED from [com.google.firebase:firebase-messaging:23.0.7] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\02e8eafa2dfcaa87e9cf2b01b54a6ca6\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:27:5-68
+MERGED from [com.google.firebase:firebase-messaging:23.0.7] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\02e8eafa2dfcaa87e9cf2b01b54a6ca6\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:27:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\378663727fd9587b92a14ecf56b06c6c\transformed\jetified-play-services-cloud-messaging-17.0.1\AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\378663727fd9587b92a14ecf56b06c6c\transformed\jetified-play-services-cloud-messaging-17.0.1\AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from [:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.2.2] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\91b1d8ad03d5f0fbd7568087eee8031b\transformed\jetified-firebase-firestore-24.2.2\AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.2.2] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\91b1d8ad03d5f0fbd7568087eee8031b\transformed\jetified-firebase-firestore-24.2.2\AndroidManifest.xml:13:5-79
+MERGED from [io.grpc:grpc-android:1.44.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\ce5e176108867f9f0f59ac96ffc45216\transformed\jetified-grpc-android-1.44.1\AndroidManifest.xml:9:5-79
+MERGED from [io.grpc:grpc-android:1.44.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\ce5e176108867f9f0f59ac96ffc45216\transformed\jetified-grpc-android-1.44.1\AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.0.7] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\02e8eafa2dfcaa87e9cf2b01b54a6ca6\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.0.7] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\02e8eafa2dfcaa87e9cf2b01b54a6ca6\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\cc75ee00747d4f5c3d3c1909c50492b1\transformed\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\cc75ee00747d4f5c3d3c1909c50492b1\transformed\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\6ad74398582d850a1674277a651ffa35\transformed\jetified-transport-runtime-3.1.6\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\6ad74398582d850a1674277a651ffa35\transformed\jetified-transport-runtime-3.1.6\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\9206f4adbcf9a2ba9115946791d59286\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\9206f4adbcf9a2ba9115946791d59286\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\378663727fd9587b92a14ecf56b06c6c\transformed\jetified-play-services-cloud-messaging-17.0.1\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\378663727fd9587b92a14ecf56b06c6c\transformed\jetified-play-services-cloud-messaging-17.0.1\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from [:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-76
+service#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService
+ADDED from [:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-16:40
+	android:exported
+		ADDED from [:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-37
+	android:name
+		ADDED from [:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-103
+service#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService
+ADDED from [:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:9-23:19
+	android:exported
+		ADDED from [:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-37
+	android:name
+		ADDED from [:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-95
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-22:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:17-78
+	android:name
+		ADDED from [:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:25-75
+receiver#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver
+ADDED from [:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-32:20
+	android:exported
+		ADDED from [:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-73
+	android:name
+		ADDED from [:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-96
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-31:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:17-81
+	android:name
+		ADDED from [:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:25-78
+meta-data#firebase_messaging_auto_init_enabled
+ADDED from [:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-36:36
+	android:value
+		ADDED from [:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-33
+	android:name
+		ADDED from [:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-64
+meta-data#com.google.firebase.messaging.default_notification_channel_id
+ADDED from [:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:9-39:32
+	android:value
+		ADDED from [:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:39:13-29
+	android:name
+		ADDED from [:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-89
+meta-data#com.google.firebase.messaging.default_notification_color
+ADDED from [:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:40:9-42:47
+	android:resource
+		ADDED from [:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-44
+	android:name
+		ADDED from [:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-84
+meta-data#app_data_collection_default_enabled
+ADDED from [:react-native-firebase_app] C:\Katartizo\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-13:36
+	android:value
+		ADDED from [:react-native-firebase_app] C:\Katartizo\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-33
+	android:name
+		ADDED from [:react-native-firebase_app] C:\Katartizo\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-63
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:react-native-firebase_app] C:\Katartizo\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.2.2] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\91b1d8ad03d5f0fbd7568087eee8031b\transformed\jetified-firebase-firestore-24.2.2\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.2.2] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\91b1d8ad03d5f0fbd7568087eee8031b\transformed\jetified-firebase-firestore-24.2.2\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.7] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\02e8eafa2dfcaa87e9cf2b01b54a6ca6\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:53:9-59:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.7] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\02e8eafa2dfcaa87e9cf2b01b54a6ca6\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:53:9-59:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.5] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\e4e7cd45998e5b693d655aaf7b78344a\transformed\jetified-firebase-datatransport-18.1.5\AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.5] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\e4e7cd45998e5b693d655aaf7b78344a\transformed\jetified-firebase-datatransport-18.1.5\AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\9206f4adbcf9a2ba9115946791d59286\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\9206f4adbcf9a2ba9115946791d59286\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\754bb664b526c0eb509e2119e70337ed\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\754bb664b526c0eb509e2119e70337ed\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [:react-native-firebase_app] C:\Katartizo\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
+	tools:targetApi
+		ADDED from [:react-native-firebase_app] C:\Katartizo\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-32
+	android:directBootAware
+		ADDED from [:react-native-firebase_app] C:\Katartizo\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-43
+	android:name
+		ADDED from [:react-native-firebase_app] C:\Katartizo\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-84
+meta-data#com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar
+ADDED from [:react-native-firebase_app] C:\Katartizo\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [:react-native-firebase_app] C:\Katartizo\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [:react-native-firebase_app] C:\Katartizo\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:17-120
+provider#io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider
+ADDED from [:react-native-firebase_app] C:\Katartizo\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-29:38
+	android:authorities
+		ADDED from [:react-native-firebase_app] C:\Katartizo\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-86
+	android:exported
+		ADDED from [:react-native-firebase_app] C:\Katartizo\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-37
+	android:initOrder
+		ADDED from [:react-native-firebase_app] C:\Katartizo\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-35
+	android:name
+		ADDED from [:react-native-firebase_app] C:\Katartizo\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-88
+provider#com.reactnativecommunity.webview.RNCWebViewFileProvider
+ADDED from [:react-native-webview] C:\Katartizo\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+	android:grantUriPermissions
+		ADDED from [:react-native-webview] C:\Katartizo\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+	android:authorities
+		ADDED from [:react-native-webview] C:\Katartizo\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-64
+	android:exported
+		ADDED from [:react-native-webview] C:\Katartizo\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [:react-native-webview] C:\Katartizo\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-83
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-webview] C:\Katartizo\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:63
+	android:resource
+		ADDED from [:react-native-webview] C:\Katartizo\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-60
+	android:name
+		ADDED from [:react-native-webview] C:\Katartizo\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.2.2] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\91b1d8ad03d5f0fbd7568087eee8031b\transformed\jetified-firebase-firestore-24.2.2\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.2.2] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\91b1d8ad03d5f0fbd7568087eee8031b\transformed\jetified-firebase-firestore-24.2.2\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.2.2] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\91b1d8ad03d5f0fbd7568087eee8031b\transformed\jetified-firebase-firestore-24.2.2\AndroidManifest.xml:21:17-111
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from [com.google.firebase:firebase-messaging:23.0.7] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\02e8eafa2dfcaa87e9cf2b01b54a6ca6\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:26:5-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.7] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\02e8eafa2dfcaa87e9cf2b01b54a6ca6\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:26:22-74
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:23.0.7] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\02e8eafa2dfcaa87e9cf2b01b54a6ca6\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:29:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\378663727fd9587b92a14ecf56b06c6c\transformed\jetified-play-services-cloud-messaging-17.0.1\AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\378663727fd9587b92a14ecf56b06c6c\transformed\jetified-play-services-cloud-messaging-17.0.1\AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.7] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\02e8eafa2dfcaa87e9cf2b01b54a6ca6\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:29:22-79
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-messaging:23.0.7] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\02e8eafa2dfcaa87e9cf2b01b54a6ca6\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:32:9-39:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.0.7] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\02e8eafa2dfcaa87e9cf2b01b54a6ca6\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:34:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-messaging:23.0.7] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\02e8eafa2dfcaa87e9cf2b01b54a6ca6\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:35:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.7] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\02e8eafa2dfcaa87e9cf2b01b54a6ca6\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:33:13-78
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:23.0.7] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\02e8eafa2dfcaa87e9cf2b01b54a6ca6\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:45:9-52:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.0.7] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\02e8eafa2dfcaa87e9cf2b01b54a6ca6\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:48:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:23.0.7] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\02e8eafa2dfcaa87e9cf2b01b54a6ca6\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:47:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.7] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\02e8eafa2dfcaa87e9cf2b01b54a6ca6\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:46:13-82
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:23.0.7] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\02e8eafa2dfcaa87e9cf2b01b54a6ca6\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:56:13-58:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:23.0.7] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\02e8eafa2dfcaa87e9cf2b01b54a6ca6\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:58:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.7] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\02e8eafa2dfcaa87e9cf2b01b54a6ca6\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:57:17-119
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:18.1.5] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\e4e7cd45998e5b693d655aaf7b78344a\transformed\jetified-firebase-datatransport-18.1.5\AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:18.1.5] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\e4e7cd45998e5b693d655aaf7b78344a\transformed\jetified-firebase-datatransport-18.1.5\AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:18.1.5] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\e4e7cd45998e5b693d655aaf7b78344a\transformed\jetified-firebase-datatransport-18.1.5\AndroidManifest.xml:29:17-115
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\cc75ee00747d4f5c3d3c1909c50492b1\transformed\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\6ad74398582d850a1674277a651ffa35\transformed\jetified-transport-runtime-3.1.6\AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\6ad74398582d850a1674277a651ffa35\transformed\jetified-transport-runtime-3.1.6\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\cc75ee00747d4f5c3d3c1909c50492b1\transformed\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\cc75ee00747d4f5c3d3c1909c50492b1\transformed\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\cc75ee00747d4f5c3d3c1909c50492b1\transformed\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\cc75ee00747d4f5c3d3c1909c50492b1\transformed\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\cc75ee00747d4f5c3d3c1909c50492b1\transformed\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\6ad74398582d850a1674277a651ffa35\transformed\jetified-transport-runtime-3.1.6\AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\6ad74398582d850a1674277a651ffa35\transformed\jetified-transport-runtime-3.1.6\AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\6ad74398582d850a1674277a651ffa35\transformed\jetified-transport-runtime-3.1.6\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\6ad74398582d850a1674277a651ffa35\transformed\jetified-transport-runtime-3.1.6\AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\6ad74398582d850a1674277a651ffa35\transformed\jetified-transport-runtime-3.1.6\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\6ad74398582d850a1674277a651ffa35\transformed\jetified-transport-runtime-3.1.6\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\6ad74398582d850a1674277a651ffa35\transformed\jetified-transport-runtime-3.1.6\AndroidManifest.xml:33:13-132
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:20.2.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\a96220f53c242a7acc18c71ee2922395\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\a96220f53c242a7acc18c71ee2922395\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\a96220f53c242a7acc18c71ee2922395\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\a96220f53c242a7acc18c71ee2922395\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\a96220f53c242a7acc18c71ee2922395\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:20.2.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\a96220f53c242a7acc18c71ee2922395\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\a96220f53c242a7acc18c71ee2922395\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\a96220f53c242a7acc18c71ee2922395\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\a96220f53c242a7acc18c71ee2922395\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\a96220f53c242a7acc18c71ee2922395\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\bb6e50aebce75160399c7c18246b36fb\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\bb6e50aebce75160399c7c18246b36fb\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\bb6e50aebce75160399c7c18246b36fb\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\bb6e50aebce75160399c7c18246b36fb\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\9206f4adbcf9a2ba9115946791d59286\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\9206f4adbcf9a2ba9115946791d59286\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\9206f4adbcf9a2ba9115946791d59286\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\754bb664b526c0eb509e2119e70337ed\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\754bb664b526c0eb509e2119e70337ed\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\754bb664b526c0eb509e2119e70337ed\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\754bb664b526c0eb509e2119e70337ed\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\754bb664b526c0eb509e2119e70337ed\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\754bb664b526c0eb509e2119e70337ed\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:27:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\fa9e044628b58ecf7940789e3da4905c\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\fa9e044628b58ecf7940789e3da4905c\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\fa9e044628b58ecf7940789e3da4905c\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\0f1ac4741a9885e9d65f09b8bf6799b3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\c805e172ad9f8740ffec8ac64902e291\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\c805e172ad9f8740ffec8ac64902e291\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\3c2731451f8d81a0d646ed14e71b25e4\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\3c2731451f8d81a0d646ed14e71b25e4\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\0f1ac4741a9885e9d65f09b8bf6799b3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\0f1ac4741a9885e9d65f09b8bf6799b3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\0f1ac4741a9885e9d65f09b8bf6799b3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\0f1ac4741a9885e9d65f09b8bf6799b3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\0f1ac4741a9885e9d65f09b8bf6799b3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\0f1ac4741a9885e9d65f09b8bf6799b3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\0f1ac4741a9885e9d65f09b8bf6799b3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\c805e172ad9f8740ffec8ac64902e291\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\c805e172ad9f8740ffec8ac64902e291\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\c805e172ad9f8740ffec8ac64902e291\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78

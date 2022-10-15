@@ -1,0 +1,4 @@
+#Sun Sep 04 19:50:52 UTC 2022
+base.0=C\:\\Katartizo\\android\\app\\build\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

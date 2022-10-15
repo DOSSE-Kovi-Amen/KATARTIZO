@@ -1,0 +1,347 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.katartizo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Katartizo\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Katartizo\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Katartizo\android\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Katartizo\android\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->C:\Katartizo\android\app\src\main\AndroidManifest.xml:5:5-65
+12-->C:\Katartizo\android\app\src\main\AndroidManifest.xml:5:22-63
+13    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+13-->C:\Katartizo\android\app\src\main\AndroidManifest.xml:6:5-80
+13-->C:\Katartizo\android\app\src\main\AndroidManifest.xml:6:22-78
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-68
+14-->[:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-65
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-79
+15-->[:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-76
+16    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+16-->[com.google.firebase:firebase-messaging:23.0.7] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\8af7dc1a11f3e01d3c22a018dbf924fd\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:26:5-77
+16-->[com.google.firebase:firebase-messaging:23.0.7] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\8af7dc1a11f3e01d3c22a018dbf924fd\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:26:22-74
+17    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+17-->[com.google.firebase:firebase-messaging:23.0.7] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\8af7dc1a11f3e01d3c22a018dbf924fd\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:29:5-82
+17-->[com.google.firebase:firebase-messaging:23.0.7] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\8af7dc1a11f3e01d3c22a018dbf924fd\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:29:22-79
+18
+19    <application
+19-->C:\Katartizo\android\app\src\main\AndroidManifest.xml:8:5-27:19
+20        android:name="com.katartizo.MainApplication"
+20-->C:\Katartizo\android\app\src\main\AndroidManifest.xml:9:7-38
+21        android:allowBackup="false"
+21-->C:\Katartizo\android\app\src\main\AndroidManifest.xml:13:7-34
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.7.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\e7b3602ddd63dcf732caf349d634263f\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\Katartizo\android\app\src\main\AndroidManifest.xml:11:7-41
+24        android:label="@string/app_name"
+24-->C:\Katartizo\android\app\src\main\AndroidManifest.xml:10:7-39
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->C:\Katartizo\android\app\src\main\AndroidManifest.xml:12:7-52
+26        android:theme="@style/AppTheme" >
+26-->C:\Katartizo\android\app\src\main\AndroidManifest.xml:14:7-38
+27        <activity
+27-->C:\Katartizo\android\app\src\main\AndroidManifest.xml:15:7-26:18
+28            android:name="com.katartizo.MainActivity"
+28-->C:\Katartizo\android\app\src\main\AndroidManifest.xml:16:9-37
+29            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+29-->C:\Katartizo\android\app\src\main\AndroidManifest.xml:18:9-118
+30            android:exported="true"
+30-->C:\Katartizo\android\app\src\main\AndroidManifest.xml:21:9-32
+31            android:label="@string/app_name"
+31-->C:\Katartizo\android\app\src\main\AndroidManifest.xml:17:9-41
+32            android:launchMode="singleTask"
+32-->C:\Katartizo\android\app\src\main\AndroidManifest.xml:19:9-40
+33            android:windowSoftInputMode="adjustResize" >
+33-->C:\Katartizo\android\app\src\main\AndroidManifest.xml:20:9-51
+34            <intent-filter>
+34-->C:\Katartizo\android\app\src\main\AndroidManifest.xml:22:9-25:25
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\Katartizo\android\app\src\main\AndroidManifest.xml:23:13-65
+35-->C:\Katartizo\android\app\src\main\AndroidManifest.xml:23:21-62
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\Katartizo\android\app\src\main\AndroidManifest.xml:24:13-73
+37-->C:\Katartizo\android\app\src\main\AndroidManifest.xml:24:23-70
+38            </intent-filter>
+39        </activity>
+40
+41        <service
+41-->[:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:9-16:40
+42            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService"
+42-->[:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-103
+43            android:exported="false" />
+43-->[:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-37
+44        <service
+44-->[:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:9-23:19
+45            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+45-->[:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:18:13-95
+46            android:exported="false" >
+46-->[:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:13-37
+47            <intent-filter>
+47-->[:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:13-22:29
+48                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+48-->[:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:17-78
+48-->[:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:25-75
+49            </intent-filter>
+50        </service>
+51
+52        <receiver
+52-->[:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:9-32:20
+53            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+53-->[:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:26:13-96
+54            android:exported="true"
+54-->[:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:27:13-36
+55            android:permission="com.google.android.c2dm.permission.SEND" >
+55-->[:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:28:13-73
+56            <intent-filter>
+56-->[:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:29:13-31:29
+57                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+57-->[:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:30:17-81
+57-->[:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:30:25-78
+58            </intent-filter>
+59        </receiver>
+60
+61        <meta-data
+61-->[:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:34:9-36:36
+62            android:name="firebase_messaging_auto_init_enabled"
+62-->[:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:35:13-64
+63            android:value="true" />
+63-->[:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:36:13-33
+64        <meta-data
+64-->[:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:37:9-39:32
+65            android:name="com.google.firebase.messaging.default_notification_channel_id"
+65-->[:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:38:13-89
+66            android:value="" />
+66-->[:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:39:13-29
+67        <meta-data
+67-->[:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:40:9-42:47
+68            android:name="com.google.firebase.messaging.default_notification_color"
+68-->[:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:41:13-84
+69            android:resource="@color/white" />
+69-->[:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:42:13-44
+70        <meta-data
+70-->[:react-native-firebase_app] C:\Katartizo\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:9-13:36
+71            android:name="app_data_collection_default_enabled"
+71-->[:react-native-firebase_app] C:\Katartizo\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-63
+72            android:value="true" />
+72-->[:react-native-firebase_app] C:\Katartizo\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-33
+73
+74        <service
+74-->[:react-native-firebase_app] C:\Katartizo\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:9-23:19
+75            android:name="com.google.firebase.components.ComponentDiscoveryService"
+75-->[:react-native-firebase_app] C:\Katartizo\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-84
+76            android:directBootAware="true"
+76-->[:react-native-firebase_app] C:\Katartizo\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-43
+77            android:exported="false" >
+77-->[:react-native-firebase_app] C:\Katartizo\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:18:13-37
+78            <meta-data
+78-->[:react-native-firebase_app] C:\Katartizo\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:13-22:85
+79                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+79-->[:react-native-firebase_app] C:\Katartizo\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:17-120
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[:react-native-firebase_app] C:\Katartizo\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:22:17-82
+81            <meta-data
+81-->[com.google.firebase:firebase-messaging:23.0.7] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\8af7dc1a11f3e01d3c22a018dbf924fd\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:56:13-58:85
+82                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+82-->[com.google.firebase:firebase-messaging:23.0.7] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\8af7dc1a11f3e01d3c22a018dbf924fd\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:57:17-119
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[com.google.firebase:firebase-messaging:23.0.7] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\8af7dc1a11f3e01d3c22a018dbf924fd\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:58:17-82
+84            <meta-data
+84-->[com.google.firebase:firebase-datatransport:18.1.5] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\4e8e3d6f52183d54a8e8e49a743c220a\transformed\jetified-firebase-datatransport-18.1.5\AndroidManifest.xml:28:13-30:85
+85                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+85-->[com.google.firebase:firebase-datatransport:18.1.5] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\4e8e3d6f52183d54a8e8e49a743c220a\transformed\jetified-firebase-datatransport-18.1.5\AndroidManifest.xml:29:17-115
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.firebase:firebase-datatransport:18.1.5] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\4e8e3d6f52183d54a8e8e49a743c220a\transformed\jetified-firebase-datatransport-18.1.5\AndroidManifest.xml:30:17-82
+87            <meta-data
+87-->[com.google.firebase:firebase-firestore:24.2.2] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\26d94f2c23f7b4a644ef2ee26ee3baed\transformed\jetified-firebase-firestore-24.2.2\AndroidManifest.xml:20:13-22:85
+88                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+88-->[com.google.firebase:firebase-firestore:24.2.2] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\26d94f2c23f7b4a644ef2ee26ee3baed\transformed\jetified-firebase-firestore-24.2.2\AndroidManifest.xml:21:17-111
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.firebase:firebase-firestore:24.2.2] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\26d94f2c23f7b4a644ef2ee26ee3baed\transformed\jetified-firebase-firestore-24.2.2\AndroidManifest.xml:22:17-82
+90            <meta-data
+90-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\a4c5991320cf3640f56ae417c12e710a\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
+91                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+91-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\a4c5991320cf3640f56ae417c12e710a\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\a4c5991320cf3640f56ae417c12e710a\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
+93        </service>
+94
+95        <provider
+95-->[:react-native-firebase_app] C:\Katartizo\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:9-29:38
+96            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+96-->[:react-native-firebase_app] C:\Katartizo\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:26:13-88
+97            android:authorities="com.katartizo.reactnativefirebaseappinitprovider"
+97-->[:react-native-firebase_app] C:\Katartizo\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:27:13-86
+98            android:exported="false"
+98-->[:react-native-firebase_app] C:\Katartizo\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:28:13-37
+99            android:initOrder="99" />
+99-->[:react-native-firebase_app] C:\Katartizo\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:29:13-35
+100        <provider
+100-->[:react-native-webview] C:\Katartizo\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-18:20
+101            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+101-->[:react-native-webview] C:\Katartizo\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-83
+102            android:authorities="com.katartizo.fileprovider"
+102-->[:react-native-webview] C:\Katartizo\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-64
+103            android:exported="false"
+103-->[:react-native-webview] C:\Katartizo\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-37
+104            android:grantUriPermissions="true" >
+104-->[:react-native-webview] C:\Katartizo\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-47
+105            <meta-data
+105-->[:react-native-webview] C:\Katartizo\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-17:63
+106                android:name="android.support.FILE_PROVIDER_PATHS"
+106-->[:react-native-webview] C:\Katartizo\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:17-67
+107                android:resource="@xml/file_provider_paths" />
+107-->[:react-native-webview] C:\Katartizo\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:17-60
+108        </provider>
+109
+110        <receiver
+110-->[com.google.firebase:firebase-messaging:23.0.7] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\8af7dc1a11f3e01d3c22a018dbf924fd\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:32:9-39:20
+111            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+111-->[com.google.firebase:firebase-messaging:23.0.7] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\8af7dc1a11f3e01d3c22a018dbf924fd\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:33:13-78
+112            android:exported="true"
+112-->[com.google.firebase:firebase-messaging:23.0.7] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\8af7dc1a11f3e01d3c22a018dbf924fd\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:34:13-36
+113            android:permission="com.google.android.c2dm.permission.SEND" >
+113-->[com.google.firebase:firebase-messaging:23.0.7] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\8af7dc1a11f3e01d3c22a018dbf924fd\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:35:13-73
+114            <intent-filter>
+114-->[:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:29:13-31:29
+115                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+115-->[:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:30:17-81
+115-->[:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:30:25-78
+116            </intent-filter>
+117        </receiver>
+118        <!--
+119             FirebaseMessagingService performs security checks at runtime,
+120             but set to not exported to explicitly avoid allowing another app to call it.
+121        -->
+122        <service
+122-->[com.google.firebase:firebase-messaging:23.0.7] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\8af7dc1a11f3e01d3c22a018dbf924fd\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:45:9-52:19
+123            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+123-->[com.google.firebase:firebase-messaging:23.0.7] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\8af7dc1a11f3e01d3c22a018dbf924fd\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:46:13-82
+124            android:directBootAware="true"
+124-->[com.google.firebase:firebase-messaging:23.0.7] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\8af7dc1a11f3e01d3c22a018dbf924fd\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:47:13-43
+125            android:exported="false" >
+125-->[com.google.firebase:firebase-messaging:23.0.7] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\8af7dc1a11f3e01d3c22a018dbf924fd\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:48:13-37
+126            <intent-filter android:priority="-500" >
+126-->[:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:13-22:29
+127                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+127-->[:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:17-78
+127-->[:react-native-firebase_messaging] C:\Katartizo\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:25-75
+128            </intent-filter>
+129        </service>
+130        <service
+130-->[com.google.android.datatransport:transport-backend-cct:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\d02c37a6985dff708906962914aa6430\transformed\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:29:9-35:19
+131            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+131-->[com.google.android.datatransport:transport-backend-cct:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\d02c37a6985dff708906962914aa6430\transformed\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:30:13-103
+132            android:exported="false" >
+132-->[com.google.android.datatransport:transport-backend-cct:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\d02c37a6985dff708906962914aa6430\transformed\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:31:13-37
+133            <meta-data
+133-->[com.google.android.datatransport:transport-backend-cct:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\d02c37a6985dff708906962914aa6430\transformed\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:32:13-34:39
+134                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+134-->[com.google.android.datatransport:transport-backend-cct:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\d02c37a6985dff708906962914aa6430\transformed\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:33:17-94
+135                android:value="cct" />
+135-->[com.google.android.datatransport:transport-backend-cct:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\d02c37a6985dff708906962914aa6430\transformed\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:34:17-36
+136        </service>
+137        <service
+137-->[com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\5c502afeb4b84d86178d60d881142bc8\transformed\jetified-transport-runtime-3.1.6\AndroidManifest.xml:26:9-30:19
+138            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+138-->[com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\5c502afeb4b84d86178d60d881142bc8\transformed\jetified-transport-runtime-3.1.6\AndroidManifest.xml:27:13-117
+139            android:exported="false"
+139-->[com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\5c502afeb4b84d86178d60d881142bc8\transformed\jetified-transport-runtime-3.1.6\AndroidManifest.xml:28:13-37
+140            android:permission="android.permission.BIND_JOB_SERVICE" >
+140-->[com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\5c502afeb4b84d86178d60d881142bc8\transformed\jetified-transport-runtime-3.1.6\AndroidManifest.xml:29:13-69
+141        </service>
+142
+143        <receiver
+143-->[com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\5c502afeb4b84d86178d60d881142bc8\transformed\jetified-transport-runtime-3.1.6\AndroidManifest.xml:32:9-34:40
+144            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+144-->[com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\5c502afeb4b84d86178d60d881142bc8\transformed\jetified-transport-runtime-3.1.6\AndroidManifest.xml:33:13-132
+145            android:exported="false" />
+145-->[com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\5c502afeb4b84d86178d60d881142bc8\transformed\jetified-transport-runtime-3.1.6\AndroidManifest.xml:34:13-37
+146
+147        <activity
+147-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\43733831be4f45b0caf6381b35a902b9\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:23:9-27:75
+148            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+148-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\43733831be4f45b0caf6381b35a902b9\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:24:13-93
+149            android:excludeFromRecents="true"
+149-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\43733831be4f45b0caf6381b35a902b9\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:25:13-46
+150            android:exported="false"
+150-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\43733831be4f45b0caf6381b35a902b9\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:26:13-37
+151            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+151-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\43733831be4f45b0caf6381b35a902b9\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:27:13-72
+152        <!--
+153            Service handling Google Sign-In user revocation. For apps that do not integrate with
+154            Google Sign-In, this service will never be started.
+155        -->
+156        <service
+156-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\43733831be4f45b0caf6381b35a902b9\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:33:9-37:51
+157            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+157-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\43733831be4f45b0caf6381b35a902b9\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:34:13-89
+158            android:exported="true"
+158-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\43733831be4f45b0caf6381b35a902b9\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:35:13-36
+159            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+159-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\43733831be4f45b0caf6381b35a902b9\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:36:13-107
+160            android:visibleToInstantApps="true" />
+160-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\43733831be4f45b0caf6381b35a902b9\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:37:13-48
+161
+162        <activity
+162-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\dcad48b92bd92571daeed55d5dcf2817\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+163            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+163-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\dcad48b92bd92571daeed55d5dcf2817\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+164            android:exported="false"
+164-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\dcad48b92bd92571daeed55d5dcf2817\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+165            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+165-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\dcad48b92bd92571daeed55d5dcf2817\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+166
+167        <provider
+167-->[com.google.firebase:firebase-common:20.1.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\912684e4812880feced16dacc6cb0077\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
+168            android:name="com.google.firebase.provider.FirebaseInitProvider"
+168-->[com.google.firebase:firebase-common:20.1.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\912684e4812880feced16dacc6cb0077\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:27:13-77
+169            android:authorities="com.katartizo.firebaseinitprovider"
+169-->[com.google.firebase:firebase-common:20.1.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\912684e4812880feced16dacc6cb0077\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:28:13-72
+170            android:directBootAware="true"
+170-->[com.google.firebase:firebase-common:20.1.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\912684e4812880feced16dacc6cb0077\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:29:13-43
+171            android:exported="false"
+171-->[com.google.firebase:firebase-common:20.1.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\912684e4812880feced16dacc6cb0077\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:30:13-37
+172            android:initOrder="100" />
+172-->[com.google.firebase:firebase-common:20.1.1] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\912684e4812880feced16dacc6cb0077\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:31:13-36
+173
+174        <meta-data
+174-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\c03e2b959410a8097efadbfd49c01d54\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+175            android:name="com.google.android.gms.version"
+175-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\c03e2b959410a8097efadbfd49c01d54\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+176            android:value="@integer/google_play_services_version" />
+176-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\c03e2b959410a8097efadbfd49c01d54\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+177
+178        <provider
+178-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\72ade5bc73a05d8c603de7fdaa4cc58e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+179            android:name="androidx.startup.InitializationProvider"
+179-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\72ade5bc73a05d8c603de7fdaa4cc58e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+180            android:authorities="com.katartizo.androidx-startup"
+180-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\72ade5bc73a05d8c603de7fdaa4cc58e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+181            android:exported="false" >
+181-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\72ade5bc73a05d8c603de7fdaa4cc58e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+182            <meta-data
+182-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\72ade5bc73a05d8c603de7fdaa4cc58e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+183                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+183-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\72ade5bc73a05d8c603de7fdaa4cc58e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+184                android:value="androidx.startup" />
+184-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\72ade5bc73a05d8c603de7fdaa4cc58e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+185            <meta-data
+185-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\a1197de3ce8d34d68adc6149e6546c58\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+186                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+186-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\a1197de3ce8d34d68adc6149e6546c58\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+187                android:value="androidx.startup" />
+187-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DOSSE KOVI AMEN\.gradle\caches\transforms-3\a1197de3ce8d34d68adc6149e6546c58\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+188        </provider>
+189    </application>
+190
+191</manifest>
