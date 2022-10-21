@@ -14,7 +14,7 @@ export default function HomeScreen(){
 
     return (
 
-        <Tab.Navigator
+        <Tab.Navigator 
         screenOptions={{
           tabBarLabelStyle: { fontSize: 15, fontWeight: 'bold' },
           tabBarActiveTintColor: styles.mainColor,
